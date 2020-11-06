@@ -1,0 +1,191 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0; 
+}
+
+html {
+    background-color: rgb(250, 250, 250);
+}
+
+div {
+    background-color: #FFF;
+}
+
+div#form {
+    margin-bottom: 20px;
+}
+
+.all-and-middle {
+    width: 350px;
+    text-align: center;
+    margin: 12px auto;
+    border: 1px rgb(219, 219, 219) solid;
+}
+
+.middle {
+    width: 350px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    margin: 10px auto;
+    border: 1px rgb(219, 219, 219) solid;
+}
+
+.down {
+    font-size: 11pt;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(250, 250, 250);
+}
+
+div#app-pics {
+    margin: 0;
+    background-color: rgb(250, 250, 250);
+}
+
+div#logo img {
+    width: 175px;
+    padding: 25px;
+}
+
+input {
+    font-size: 12px;
+    width: 258px;
+    padding: 10px;
+    margin: 3px;
+    position: relative;
+    border-radius: 3px;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    border: 1px solid rgba(var(--d0b,219,219,219),1);
+}
+
+input#entrar {
+    font-weight: bold;
+    font-size: 10pt;
+    padding: 0;
+    height: 30px;
+    margin: 15px;
+    width: 280px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(50, 144, 221);
+}
+
+div#left {
+    margin-left: 35px;
+    width: 115px;
+    background-color: #dbd5d5;
+    height: 1.5px;
+    position: relative;
+    top: .45em;
+}
+
+div#right {
+    width: 115px;
+    margin-left: 200px;
+    background-color: #dbd5d5;
+    height: 1.5px;
+    margin-top: -10px;
+
+}
+
+button#vincular_facebook {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 10pt;
+    color: rgb(11, 95, 163);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+div#ou {
+    color: rgba(var(--f52,153,153,153),1);
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 18px;
+    text-transform: uppercase;
+
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a#forget {
+    font-size: 9pt;
+    color:rgb(0, 55, 107);
+}
+
+a#register {
+    font: bold;
+    color: rgb(0, 149, 246);
+}
+
+p#not-account {
+    font-size: 11pt;
+    
+}
+
+p#app {
+    margin: 18px;
+    background-color: rgb(250, 250, 250);
+}
+
+div#footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 25px 0px;
+    margin: 0px 130px;
+    background-color: rgb(250, 250, 250);
+}
+
+img {
+    width: 15px;
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+footer#rodape {
+    display: inline;
+    padding: 0 20px;
+    position: relative;
+    background-color: rgb(250, 250, 250);
+}
+
+ul {
+    max-width: 900px;
+    font-size: 9pt;
+    font-weight: bold;
+    color:rgb(0, 55, 107);
+}
+
+li {
+    font-size: 8.5pt;
+    display: inline;
+    list-style-type: none;
+    margin: 5px;
+}
+
+nav {
+    display: inline;
+    margin-right: 100px;
+}
+
+span#copy {
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 9pt;
+    font-weight: bold;
+}
+
+img#apple, #google {
+    width: 135px;
+    margin: 2px;
+}
